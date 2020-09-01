@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/Drawer.dart';
+import 'package:progesti_app/components/BottomTabBar.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -13,6 +14,7 @@ class Home extends StatelessWidget {
         child: Text("O Dashboard vai ficar aqui"),
       ),
       drawer: DrawerProgesti(),
+      bottomNavigationBar: BottomTabBarProgesti(),
     );
   }
 }
