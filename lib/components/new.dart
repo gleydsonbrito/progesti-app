@@ -13,7 +13,7 @@ class New extends StatelessWidget {
           Align(
             alignment: Alignment.topLeft,
             child: Text(
-              "Titulo da noticia",
+              "Titulo da noticia Principal",
               overflow: TextOverflow.ellipsis,
               textDirection: TextDirection.ltr,
               style: TextStyle(

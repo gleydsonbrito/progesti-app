@@ -6,6 +6,8 @@ class MainNews extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Container(
+        width: MediaQuery.of(context).size.width * 0.95,
+        // height: MediaQuery.of(context).size.height * 0.45,
         child: Column(
           children: <Widget>[
             Card(
@@ -13,7 +15,7 @@ class MainNews extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: Image(
                 image: AssetImage("assets/not.png"),
-                fit: BoxFit.fill,
+                fit: BoxFit.cover,
               ),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10.0),

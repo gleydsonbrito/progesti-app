@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:progesti_app/components/BottomTabBar.dart';
 import 'package:progesti_app/components/Drawer.dart';
 import 'package:progesti_app/components/MainNews.dart';
+import 'package:progesti_app/components/HListView.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -17,6 +18,7 @@ class Home extends StatelessWidget {
         child: Column(
           children: <Widget>[
             MainNews(),
+            HListView(),
           ],
         ),
       ),
