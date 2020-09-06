@@ -10,7 +10,7 @@ class HListView extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(top: 5),
-        height: 100,
+        height: 125,
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: <Widget>[
