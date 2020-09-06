@@ -17,11 +17,6 @@ class Home extends StatelessWidget {
         child: Column(
           children: <Widget>[
             News(),
-            Align(
-              alignment: Alignment.topLeft,
-              child: Text("More news"),
-            ),
-            Text("More text here")
           ],
         ),
       ),
