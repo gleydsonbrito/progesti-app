@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/BottomTabBar.dart';
 import 'package:progesti_app/components/Drawer.dart';
-import 'package:progesti_app/components/News.dart';
+import 'package:progesti_app/components/MainNews.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
         alignment: Alignment.topCenter,
         child: Column(
           children: <Widget>[
-            News(),
+            MainNews(),
           ],
         ),
       ),
