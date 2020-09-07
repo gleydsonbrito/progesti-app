@@ -8,9 +8,9 @@ class IconOptions extends StatelessWidget {
       height: 100,
       width: 100,
       decoration: BoxDecoration(
-        color: Colors.deepPurple,
+        color: Colors.deepPurpleAccent.withOpacity(0.70),
         border: Border.all(
-          color: Colors.blue[500],
+          color: Colors.deepPurpleAccent.withOpacity(0.70),
         ),
         shape: BoxShape.circle,
         boxShadow: [
@@ -23,11 +23,7 @@ class IconOptions extends StatelessWidget {
         ],
       ),
       margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
-      child: Icon(
-        Icons.people,
-        size: 60,
-        color: Colors.white70,
-      ),
+      child: Icon(Icons.people, size: 60, color: Colors.white60),
     );
   }
 }
