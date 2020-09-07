@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/BottomTabBar.dart';
-import 'package:progesti_app/components/Drawer.dart';
 
 class NewsDetailScreen extends StatelessWidget {
   @override
@@ -10,13 +9,15 @@ class NewsDetailScreen extends StatelessWidget {
         title: Text("Detalhe da noticia"),
         backgroundColor: Colors.deepPurple,
       ),
-      drawer: DrawerProgesti(),
       body: Align(
-        alignment: Alignment.topCenter,
-        child: Column(
-          children: <Widget>[
-            Text("News Detail Screen"),
-          ],
+        alignment: Alignment.center,
+        child: Center(
+          child: Text(
+            "News Detail Screen",
+            style: TextStyle(
+              fontSize: 30,
+            ),
+          ),
         ),
       ),
       bottomNavigationBar: BottomTabBarProgesti(),

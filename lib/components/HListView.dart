@@ -6,12 +6,12 @@ class HListView extends StatelessWidget {
   Widget build(BuildContext context) {
     var icons = new List<Widget>();
     icons = [
-      IconOptions(),
-      IconOptions(),
-      IconOptions(),
-      IconOptions(),
-      IconOptions(),
-      IconOptions()
+      IconOptions("Gabinete"),
+      IconOptions("COAP"),
+      IconOptions("CAAP"),
+      IconOptions("CGARU"),
+      IconOptions("COPSELC"),
+      IconOptions("CRG"),
     ];
 
     return GestureDetector(

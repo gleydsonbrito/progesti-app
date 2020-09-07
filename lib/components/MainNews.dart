@@ -30,7 +30,7 @@ class MainNews extends StatelessWidget {
         ),
       ),
       onTap: () {
-        print("Main news taped");
+        Navigator.pushNamed(context, '/detail');
       },
     );
   }

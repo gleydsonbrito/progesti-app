@@ -8,20 +8,50 @@ class DrawerProgesti extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-              child: Text("Progesti"),
-              decoration: BoxDecoration(color: Colors.deepPurple),
+            UserAccountsDrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.deepPurple,
+              ),
+              accountName: Text("Progesti"),
+              accountEmail: Text("www.progesti.ufrpe.br"),
+              currentAccountPicture: CircleAvatar(
+                radius: 30.0,
+                backgroundImage: NetworkImage(
+                    "https://imagensemoldes.com.br/wp-content/uploads/2018/05/Meu-Malvado-Favorito-Minions-14-PNG.png"),
+              ),
             ),
             ListTile(
-              title: Text("Section 1"),
+              trailing: Icon(
+                Icons.people_outline,
+                color: Colors.deepPurpleAccent.withOpacity(0.80),
+                size: 30,
+              ),
+              title: Text(
+                "Equipe Progesti",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.pushNamed(context, '/Equip');
               },
             ),
             ListTile(
-              title: Text("Section 2"),
+              trailing: Icon(
+                Icons.account_balance,
+                color: Colors.deepPurpleAccent.withOpacity(0.80),
+                size: 30,
+              ),
+              title: Text(
+                "Missão Progesti",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.pushNamed(context, "/Mission");
               },
             ),
           ],

@@ -19,6 +19,20 @@ class Home extends StatelessWidget {
         child: Column(
           children: <Widget>[
             MainNews(),
+            Container(
+              margin: EdgeInsets.only(right: 10),
+              child: Align(
+                alignment: Alignment.centerRight,
+                child: Text(
+                  "Coordenações:",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black.withOpacity(0.50),
+                  ),
+                ),
+              ),
+            ),
             HListView(),
             NewsListTile(),
           ],
