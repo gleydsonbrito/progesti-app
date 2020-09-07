@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class Mission extends StatelessWidget {
+class Coordenations extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Equipe Progesti"),
+        title: Text("Coordenação Específica"),
         backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: Text(
-          "Mission Screen",
+          "Return Especific Coordantion",
           style: TextStyle(
             fontSize: 30,
           ),

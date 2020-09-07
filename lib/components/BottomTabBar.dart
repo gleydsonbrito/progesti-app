@@ -8,16 +8,30 @@ class BottomTabBarProgesti extends StatelessWidget {
       child: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text("Home"),
+            icon: Icon(
+              Icons.file_upload,
+              color: Colors.deepPurple,
+            ),
+            title: Text(
+              "Resoluções",
+              style: TextStyle(
+                color: Colors.deepPurple,
+              ),
+            ),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.access_time),
-            title: Text("Accsess"),
+            icon: Icon(
+              Icons.edit_attributes,
+              color: Colors.deepPurple,
+            ),
+            title: Text("Formulários"),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.usb),
-            title: Text("UISB"),
+            icon: Icon(
+              Icons.file_download,
+              color: Colors.deepPurple,
+            ),
+            title: Text("Editais"),
           ),
         ],
       ),

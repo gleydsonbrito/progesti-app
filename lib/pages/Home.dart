@@ -20,20 +20,30 @@ class Home extends StatelessWidget {
           children: <Widget>[
             MainNews(),
             Container(
-              margin: EdgeInsets.only(right: 10),
+              margin: EdgeInsets.only(left: 20),
               child: Align(
-                alignment: Alignment.centerRight,
+                alignment: Alignment.centerLeft,
                 child: Text(
                   "Coordenações:",
                   style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
                     color: Colors.black.withOpacity(0.50),
                   ),
                 ),
               ),
             ),
             HListView(),
+            Container(
+              margin: EdgeInsets.only(left: 25),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "Mais notícias: ",
+                  style: TextStyle(
+                    color: Colors.black.withOpacity(0.50),
+                  ),
+                ),
+              ),
+            ),
             NewsListTile(),
           ],
         ),

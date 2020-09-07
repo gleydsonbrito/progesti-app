@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/Equip.dart';
 import 'package:progesti_app/pages/MIssion.dart';
 import 'package:progesti_app/pages/NewsDetailScreen.dart';
@@ -14,6 +15,7 @@ void main() {
       '/detail': (context) => NewsDetailScreen(),
       '/Equip': (context) => Equip(),
       '/Mission': (context) => Mission(),
+      '/Coordenation': (context) => Coordenations(),
     },
   ));
 }

@@ -5,12 +5,12 @@ class Mission extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Equipe Progesti"),
+        title: Text("Resoluções"),
         backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: Text(
-          "Mission Screen",
+          "Resoluções Screen",
           style: TextStyle(
             fontSize: 30,
           ),

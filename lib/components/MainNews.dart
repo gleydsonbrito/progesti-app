@@ -16,7 +16,7 @@ class MainNews extends StatelessWidget {
               child: Image(
                 image: AssetImage("assets/not.png"),
                 fit: BoxFit.cover,
-                height: 200,
+                height: 180,
                 width: MediaQuery.of(context).size.width * 0.90,
               ),
               shape: RoundedRectangleBorder(
