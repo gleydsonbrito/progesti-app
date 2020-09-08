@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/Editais.dart';
-import 'package:progesti_app/pages/Equip.dart';
+import 'package:progesti_app/pages/Team.dart';
 import 'package:progesti_app/pages/Forms.dart';
 import 'package:progesti_app/pages/MIssion.dart';
 import 'package:progesti_app/pages/NewsDetailScreen.dart';
@@ -16,7 +16,7 @@ void main() {
     initialRoute: '/',
     routes: {
       '/detail': (context) => NewsDetailScreen(),
-      '/Equip': (context) => Equip(),
+      '/Team': (context) => Team(),
       '/Mission': (context) => Mission(),
       '/Coordenation': (context) => Coordenations(),
       '/Resolucoes': (context) => Resolucoes(),

@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
-class Equip extends StatelessWidget {
+class Team extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Equipe Progesti"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: mainColor,
       ),
       body: Center(
         child: Text(
-          "Equip Screen",
+          "Team Screen",
           style: TextStyle(
             fontSize: 30,
           ),

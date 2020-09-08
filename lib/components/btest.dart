@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class BottomTest extends StatefulWidget {
   BottomTest({Key key}) : super(key: key);
@@ -58,7 +59,7 @@ class _BottomTestState extends State<BottomTest> {
         ),
       ],
       currentIndex: _selectedIndex,
-      selectedItemColor: Colors.deepPurpleAccent,
+      selectedItemColor: mainColor,
       onTap: _onItemTapped,
     );
   }

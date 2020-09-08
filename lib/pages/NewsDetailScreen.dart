@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/BottomTabBar.dart';
+import 'package:progesti_app/style.dart';
 
 class NewsDetailScreen extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class NewsDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Detalhe da noticia"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: mainColor,
       ),
       body: Align(
         alignment: Alignment.center,

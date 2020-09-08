@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class DrawerProgesti extends StatelessWidget {
   @override
@@ -10,7 +11,7 @@ class DrawerProgesti extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: mainColor,
               ),
               accountName: Text("Progesti"),
               accountEmail: Text("www.progesti.ufrpe.br"),
@@ -23,7 +24,7 @@ class DrawerProgesti extends StatelessWidget {
             ListTile(
               trailing: Icon(
                 Icons.people_outline,
-                color: Colors.deepPurpleAccent.withOpacity(0.80),
+                color: mainColor.withOpacity(0.80),
                 size: 30,
               ),
               title: Text(
@@ -34,13 +35,13 @@ class DrawerProgesti extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                Navigator.pushNamed(context, '/Equip');
+                Navigator.pushNamed(context, '/Team');
               },
             ),
             ListTile(
               trailing: Icon(
                 Icons.account_balance,
-                color: Colors.deepPurpleAccent.withOpacity(0.80),
+                color: mainColor.withOpacity(0.80),
                 size: 30,
               ),
               title: Text(

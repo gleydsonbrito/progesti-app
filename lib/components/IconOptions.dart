@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:progesti_app/style.dart';
 
 class IconOptions extends StatelessWidget {
   String coordanationName;
@@ -18,17 +19,17 @@ class IconOptions extends StatelessWidget {
             height: 80,
             width: 80,
             decoration: BoxDecoration(
-              color: Colors.deepPurpleAccent.withOpacity(0.70),
+              color: mainColor,
               border: Border.all(
-                color: Colors.deepPurpleAccent.withOpacity(0.70),
+                color: mainColor,
               ),
               shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withOpacity(0.2),
-                  spreadRadius: 5,
-                  blurRadius: 7,
-                  offset: Offset(0, 3),
+                  spreadRadius: 2,
+                  blurRadius: 1,
+                  offset: Offset(0, 2),
                 ),
               ],
             ),
@@ -36,7 +37,7 @@ class IconOptions extends StatelessWidget {
             child: Icon(
               Icons.people,
               size: 45,
-              color: Colors.white60,
+              color: Colors.white70,
             ),
           ),
           Text(coordanationName)

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class Coordenations extends StatelessWidget {
   @override
@@ -6,7 +7,7 @@ class Coordenations extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Coordenação Específica"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: mainColor,
       ),
       body: Center(
         child: Text(

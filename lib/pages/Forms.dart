@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class Formularios extends StatelessWidget {
   @override
@@ -6,7 +7,7 @@ class Formularios extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Formulários"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: mainColor,
       ),
       body: Center(
         child: Text(

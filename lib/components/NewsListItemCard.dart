@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class NewsListItemCard extends StatelessWidget {
   String title;
@@ -19,7 +20,7 @@ class NewsListItemCard extends StatelessWidget {
             leading: Icon(
               Icons.filter,
               size: 35,
-              color: Colors.deepPurpleAccent,
+              color: mainColor,
             ),
             title: Text(
               title,

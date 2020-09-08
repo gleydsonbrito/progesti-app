@@ -4,6 +4,7 @@ import 'package:progesti_app/components/MainNews.dart';
 import 'package:progesti_app/components/HListView.dart';
 import 'package:progesti_app/components/NewsListTile.dart';
 import 'package:progesti_app/components/btest.dart';
+import 'package:progesti_app/style.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -11,7 +12,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Notícias"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: mainColor,
       ),
       drawer: DrawerProgesti(),
       body: Align(
