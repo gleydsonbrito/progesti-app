@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:progesti_app/components/BottomTabBar.dart';
-import 'package:progesti_app/components/Drawer.dart';
 
 class Equip extends StatelessWidget {
   @override

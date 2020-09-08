@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Mission extends StatelessWidget {
+class Resolucoes extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

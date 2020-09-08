@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:progesti_app/components/BottomTabBar.dart';
 import 'package:progesti_app/components/Drawer.dart';
 import 'package:progesti_app/components/MainNews.dart';
 import 'package:progesti_app/components/HListView.dart';
 import 'package:progesti_app/components/NewsListTile.dart';
+import 'package:progesti_app/components/btest.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -48,7 +48,7 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: BottomTabBarProgesti(),
+      bottomNavigationBar: BottomTest(),
     );
   }
 }

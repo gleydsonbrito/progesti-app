@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Mission extends StatelessWidget {
+class Formularios extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

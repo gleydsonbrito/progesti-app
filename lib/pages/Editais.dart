@@ -1,6 +1,11 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
-class Mission extends StatelessWidget {
+class Editais extends StatelessWidget {
+  final Completer<WebViewController> _controller =
+      Completer<WebViewController>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,13 +15,12 @@ class Mission extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Editai Screen",
+          "Editais Screens",
           style: TextStyle(
             fontSize: 30,
           ),
         ),
       ),
-      // bottomNavigationBar: BottomTabBarProgesti(),
     );
   }
 }

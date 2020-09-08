@@ -9,9 +9,12 @@ class NewsListTile extends StatelessWidget {
       width: MediaQuery.of(context).size.width * 0.90,
       child: ListView(
         children: <Widget>[
-          NewsListItemCard(),
-          NewsListItemCard(),
-          NewsListItemCard(),
+          NewsListItemCard("Lançamento do edital 002/2020",
+              "A progesti acaba de lanças o edital 002/2020"),
+          NewsListItemCard(
+              "Edial do PLE", "Acompanhe todas as informações sobre o PLE"),
+          NewsListItemCard("Inscrições encerradas",
+              "Acabou o prazo de inscrições no edital 002/2020"),
         ],
       ),
     );
