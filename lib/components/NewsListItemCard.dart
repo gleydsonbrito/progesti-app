@@ -17,14 +17,12 @@ class NewsListItemCard extends StatelessWidget {
         height: 70,
         child: Card(
           child: ListTile(
-            leading: Icon(
-              Icons.filter,
-              size: 35,
-              color: mainColor,
-            ),
             title: Text(
               title,
               overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                color: Color(0xff009ffd).withOpacity(0.80),
+              ),
             ),
             subtitle: Text(
               subject,

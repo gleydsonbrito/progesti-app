@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class New extends StatelessWidget {
   String title;
@@ -17,9 +18,10 @@ class New extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               textDirection: TextDirection.ltr,
               style: TextStyle(
-                  color: Colors.black.withOpacity(0.7),
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold),
+                color: newsTitleColor.withOpacity(0.80),
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           Text(
@@ -27,7 +29,7 @@ class New extends StatelessWidget {
             overflow: TextOverflow.ellipsis,
             textDirection: TextDirection.ltr,
             style: TextStyle(
-              color: Colors.black.withOpacity(0.6),
+              color: textColor.withOpacity(0.6),
               fontSize: 14,
             ),
           )

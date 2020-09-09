@@ -16,31 +16,36 @@ class IconOptions extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            height: 80,
-            width: 80,
+            height: 100,
+            width: 100,
             decoration: BoxDecoration(
-              color: mainColor,
+              color: Color(0xffffa400).withOpacity(0.60),
               border: Border.all(
-                color: mainColor,
+                color: Color(0xffffa400).withOpacity(0.50),
               ),
               shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withOpacity(0.2),
                   spreadRadius: 2,
-                  blurRadius: 1,
-                  offset: Offset(0, 2),
+                  blurRadius: 3,
+                  offset: Offset(-3, 3),
                 ),
               ],
             ),
-            margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
-            child: Icon(
-              Icons.people,
-              size: 45,
-              color: Colors.white70,
+            margin: EdgeInsets.fromLTRB(15, 0, 15, 5),
+            child: Center(
+              child: Text(
+                coordanationName,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xff232528),
+                  fontFamily: 'Open Sans',
+                ),
+              ),
             ),
           ),
-          Text(coordanationName)
         ],
       ),
     );

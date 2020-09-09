@@ -21,7 +21,6 @@ class NewsDetailScreen extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomTabBarProgesti(),
     );
   }
 }
