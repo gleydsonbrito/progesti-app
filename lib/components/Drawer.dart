@@ -11,7 +11,7 @@ class DrawerProgesti extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                color: mainColor,
+                color: Colors.blueAccent,
               ),
               accountName: Text("Progesti"),
               accountEmail: Text("www.progesti.ufrpe.br"),
