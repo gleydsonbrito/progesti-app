@@ -24,7 +24,7 @@ class DrawerProgesti extends StatelessWidget {
             ListTile(
               trailing: Icon(
                 Icons.people_outline,
-                color: mainColor.withOpacity(0.80),
+                color: Colors.blueAccent,
                 size: 30,
               ),
               title: Text(
@@ -41,7 +41,7 @@ class DrawerProgesti extends StatelessWidget {
             ListTile(
               trailing: Icon(
                 Icons.account_balance,
-                color: mainColor.withOpacity(0.80),
+                color: Colors.blueAccent,
                 size: 30,
               ),
               title: Text(
