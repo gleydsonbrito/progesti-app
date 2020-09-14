@@ -1,40 +1,66 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
-class BottomTabBarProgesti extends StatelessWidget {
+class BottomTabBar extends StatefulWidget {
+  BottomTabBar({Key key}) : super(key: key);
+
+  @override
+  _BottomTestState createState() => _BottomTestState();
+}
+
+class _BottomTestState extends State<BottomTabBar> {
+  int _selectedIndex = 0;
+  static const TextStyle optionStyle =
+      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+
+  static const List<Widget> _widgetOptions = <Widget>[
+    Text(
+      'Index 0: Home',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 1: Business',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 2: School',
+      style: optionStyle,
+    ),
+  ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+      if (index == 0) {
+        Navigator.pushNamed(context, "/Resolucoes");
+      } else if (index == 1) {
+        Navigator.pushNamed(context, "/Formularios");
+      } else if (index == 2) {
+        Navigator.pushNamed(context, "/Editais");
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.file_upload,
-              color: Colors.deepPurple,
-            ),
-            title: Text(
-              "Resoluções",
-              style: TextStyle(
-                color: Colors.deepPurple,
-              ),
-            ),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.edit_attributes,
-              color: Colors.deepPurple,
-            ),
-            title: Text("Formulários"),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.file_download,
-              color: Colors.deepPurple,
-            ),
-            title: Text("Editais"),
-          ),
-        ],
-      ),
+    return BottomNavigationBar(
+      items: const <BottomNavigationBarItem>[
+        BottomNavigationBarItem(
+          icon: Icon(Icons.file_upload),
+          title: Text('Resoluções'),
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.folder),
+          title: Text('Formulários'),
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.archive),
+          title: Text('Editais'),
+        ),
+      ],
+      currentIndex: _selectedIndex,
+      selectedItemColor: mainColor,
+      onTap: _onItemTapped,
     );
   }
 }

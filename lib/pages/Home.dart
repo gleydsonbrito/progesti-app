@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/Drawer.dart';
 import 'package:progesti_app/components/CoordinationListView.dart';
+import 'package:progesti_app/components/IconHomeScreen.dart';
 import 'package:progesti_app/components/NewsListTile.dart';
-import 'package:progesti_app/components/btest.dart';
+import 'package:progesti_app/components/BottomTabBar.dart';
 import 'package:progesti_app/style.dart';
 
 class Home extends StatelessWidget {
@@ -58,23 +59,11 @@ class Home extends StatelessWidget {
                 ],
               ),
             ),
-            Positioned(
-              left: 270,
-              top: 85,
-              child: Container(
-                width: 70,
-                height: 70,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(50),
-                  color: Colors.white,
-                ),
-                child: Image.asset('assets/logo.png'),
-              ),
-            ),
+            IconHomeScreen('assets/logo.png'),
           ],
         ),
       ),
-      bottomNavigationBar: BottomTest(),
+      bottomNavigationBar: BottomTabBar(),
     );
   }
 }
