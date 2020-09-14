@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/style.dart';
 
 class CoordinationItem extends StatelessWidget {
   String coordinationName;
@@ -23,14 +24,16 @@ class CoordinationItem extends StatelessWidget {
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 colors: [
-                  Colors.blue,
-                  Colors.blue[100],
+                  Colors.white,
+                  Color(0xffE6C229),
+                  Color(0xffE6C229),
+                  Colors.white,
                 ],
               ),
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.blueAccent,
+                  color: Colors.yellowAccent[100],
                   blurRadius: 3.0, // soften the shadow
                   spreadRadius: 1.0, //extend the shadow
                   offset: Offset(
@@ -46,7 +49,7 @@ class CoordinationItem extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: mainColor,
                 ),
               ),
             ),

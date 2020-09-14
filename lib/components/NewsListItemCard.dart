@@ -21,7 +21,8 @@ class NewsListItemCard extends StatelessWidget {
               title,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
-                color: mainColor.withOpacity(0.90),
+                color: mainColor.withOpacity(0.80),
+                fontWeight: FontWeight.bold,
               ),
             ),
             subtitle: Text(

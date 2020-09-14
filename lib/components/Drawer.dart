@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:progesti_app/style.dart';
 
 class DrawerProgesti extends StatelessWidget {
   @override
@@ -17,8 +16,7 @@ class DrawerProgesti extends StatelessWidget {
               accountEmail: Text("www.progesti.ufrpe.br"),
               currentAccountPicture: CircleAvatar(
                 radius: 30.0,
-                backgroundImage: NetworkImage(
-                    "https://imagensemoldes.com.br/wp-content/uploads/2018/05/Meu-Malvado-Favorito-Minions-14-PNG.png"),
+                backgroundImage: AssetImage("assets/logo.png"),
               ),
             ),
             ListTile(

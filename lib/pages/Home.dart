@@ -65,8 +65,10 @@ class Home extends StatelessWidget {
                 width: 70,
                 height: 70,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(50),
-                    color: Colors.yellow),
+                  borderRadius: BorderRadius.circular(50),
+                  color: Colors.white,
+                ),
+                child: Image.asset('assets/logo.png'),
               ),
             ),
           ],
