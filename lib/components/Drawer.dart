@@ -26,7 +26,7 @@ class DrawerProgesti extends StatelessWidget {
                 size: 30,
               ),
               title: Text(
-                "Equipe Progesti",
+                "Equipe",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.black.withOpacity(0.80),
@@ -43,7 +43,7 @@ class DrawerProgesti extends StatelessWidget {
                 size: 30,
               ),
               title: Text(
-                "Missão Progesti",
+                "Missão",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.black.withOpacity(0.80),

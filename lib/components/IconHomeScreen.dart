@@ -9,7 +9,7 @@ class IconHomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Positioned(
       left: 270,
-      top: 85,
+      top: 50,
       child: Container(
         width: 70,
         height: 70,

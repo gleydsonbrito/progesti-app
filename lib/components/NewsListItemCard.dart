@@ -15,6 +15,7 @@ class NewsListItemCard extends StatelessWidget {
       },
       child: Container(
         height: 70,
+        margin: EdgeInsets.only(top: 3),
         child: Card(
           child: ListTile(
             title: Text(

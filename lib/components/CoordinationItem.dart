@@ -54,14 +54,6 @@ class CoordinationItem extends StatelessWidget {
               ),
             ),
           ),
-          Container(
-            width: 110,
-            height: 30,
-            alignment: Alignment.bottomCenter,
-            child: Image(
-              image: AssetImage("assets/wave.png"),
-            ),
-          ),
         ],
       ),
     );
