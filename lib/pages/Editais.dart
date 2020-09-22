@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:progesti_app/style.dart';
 
 class Editais extends StatelessWidget {
   @override
@@ -7,15 +6,10 @@ class Editais extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Editais"),
-        backgroundColor: mainColor,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Text(
-          "Editais Screens",
-          style: TextStyle(
-            fontSize: 30,
-          ),
-        ),
+        child: Text("Teste"),
       ),
     );
   }

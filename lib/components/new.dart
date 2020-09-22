@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/style.dart';
 
+@immutable
 class New extends StatelessWidget {
   String title;
   String body;

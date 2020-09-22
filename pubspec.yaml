@@ -22,8 +22,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
-  webview_flutter: 0.3.22+1
+    sdk: flutterß
   path_provider:
    
 
