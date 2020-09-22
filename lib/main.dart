@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/Editais.dart';
+import 'package:progesti_app/pages/Story.dart';
 import 'package:progesti_app/pages/Team.dart';
 import 'package:progesti_app/pages/Forms.dart';
 import 'package:progesti_app/pages/MIssion.dart';
@@ -22,6 +23,7 @@ void main() {
       '/Resolucoes': (context) => Resolucoes(),
       '/Editais': (context) => Editais(),
       '/Formularios': (context) => Formularios(),
+      '/Story': (context) => Story(),
     },
   ));
 }

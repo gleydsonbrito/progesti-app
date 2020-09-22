@@ -21,6 +21,23 @@ class DrawerProgesti extends StatelessWidget {
             ),
             ListTile(
               trailing: Icon(
+                Icons.speaker_notes,
+                color: Colors.blueAccent,
+                size: 30,
+              ),
+              title: Text(
+                "História",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/Story');
+              },
+            ),
+            ListTile(
+              trailing: Icon(
                 Icons.people_outline,
                 color: Colors.blueAccent,
                 size: 30,

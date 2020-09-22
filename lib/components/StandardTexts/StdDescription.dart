@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TeamsDescription extends StatelessWidget {
+class StdDescription extends StatelessWidget {
   String descriptions;
 
-  TeamsDescription(this.descriptions);
+  StdDescription(this.descriptions);
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +16,7 @@ class TeamsDescription extends StatelessWidget {
           style: TextStyle(
             color: Colors.black87,
           ),
+          textAlign: TextAlign.justify,
         ),
       ),
     );

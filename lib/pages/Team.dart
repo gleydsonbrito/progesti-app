@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:progesti_app/components/Teams/TeamsDescription.dart';
-import 'package:progesti_app/components/Teams/TeamsTitle..dart';
+import 'package:progesti_app/components/StandardTexts/StdDescription.dart';
+import 'package:progesti_app/components/StandardTexts/StdTitle.dart';
 
 class Team extends StatelessWidget {
   List<String> assistentesSociais = [
@@ -44,51 +44,52 @@ class Team extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: Column(
                 children: <Widget>[
-                  TeamsTitle("Pró Reitor"),
-                  TeamsDescription("Prof. Severino Mendes de Azevedo Júnior"),
-                  TeamsTitle("Coordenadorias:"),
-                  TeamsTitle("CAAP"),
-                  TeamsDescription("Profa. Marliete Maria Soares da Silva"),
-                  TeamsTitle("COAP"),
-                  TeamsDescription("Simone Muniz da Silva"),
-                  TeamsTitle("CGR"),
-                  TeamsDescription("Camila"),
-                  TeamsTitle("CGARU"),
-                  TeamsDescription("Profa. Flávia Carolina Lins da Silva"),
-                  TeamsTitle("COPSELC"),
-                  TeamsDescription("Profa. Maria José Fraga (UAST)"),
-                  TeamsTitle("Assistntes Sociais"),
+                  StdTitle("Pró Reitor"),
+                  StdDescription("Prof. Severino Mendes de Azevedo Júnior"),
+                  StdTitle(
+                      "Coordenadoria de Ações Afirmativas e Permanência - CAAP"),
+                  StdDescription("Profa. Marliete Maria Soares da Silva"),
+                  StdTitle("Coordenadoria de Apoio Psicosocial - COAP"),
+                  StdDescription("Simone Muniz da Silva"),
+                  StdTitle(
+                      "Coordenadoria de Residência Universitária para Graduação - CGR"),
+                  StdDescription("Camila Laís Gonzaga Lucena"),
+                  StdTitle("CGARU"),
+                  StdDescription("Profa. Flávia Carolina Lins da Silva"),
+                  StdTitle("COPSELC"),
+                  StdDescription("Profa. Maria José Fraga (UAST)"),
+                  StdTitle("Assistentes Sociais"),
                   Column(
                     children: assistentesSociais
-                        .map((desc) => TeamsDescription(desc))
+                        .map((desc) => StdDescription(desc))
                         .toList(),
                   ),
-                  TeamsTitle("Técnico em Tecnologia da Informação"),
-                  TeamsDescription("Gleydson Alves de Brito"),
-                  TeamsTitle("Psicólogos"),
+                  StdTitle("Técnico em Tecnologia da Informação"),
+                  StdDescription("Gleydson Alves de Brito"),
+                  StdTitle("Psicólogos"),
                   Column(
-                    children: psicologos
-                        .map((desc) => TeamsDescription(desc))
-                        .toList(),
+                    children:
+                        psicologos.map((desc) => StdDescription(desc)).toList(),
                   ),
-                  TeamsTitle("Pedagoga"),
-                  TeamsDescription("Juliana Cavalcanti Macêdo (SEDE)"),
-                  TeamsTitle("Secretaria Geral"),
-                  TeamsDescription("Betânia Maria Cordeiro"),
-                  TeamsTitle("Secretários"),
-                  TeamsDescription("Maria Carlos de Araújo - CGARU, CGR, COAP"),
-                  TeamsTitle("Técnico em Assuntos Educacionais"),
-                  TeamsDescription("Sandy Beatriz G. da Silva Nobre"),
-                  TeamsTitle("Apoio Administrativo"),
+                  StdTitle("Pedagoga"),
+                  StdDescription("Juliana Cavalcanti Macêdo (SEDE)"),
+                  StdTitle("Secretaria Geral"),
+                  StdDescription("Betânia Maria Cordeiro"),
+                  StdTitle("Secretários"),
+                  StdDescription("Maria Carlos de Araújo - CGARU, CGR, COAP"),
+                  StdTitle("Técnico em Assuntos Educacionais"),
+                  StdDescription("Sandy Beatriz G. da Silva Nobre"),
+                  StdTitle("Apoio Administrativo"),
                   Column(
                     children: apoioAdm
-                        .map((servidor) => TeamsDescription(servidor))
+                        .map((servidor) => StdDescription(servidor))
                         .toList(),
                   ),
-                  TeamsTitle("Funcionários RU"),
+                  StdTitle("Funcionários RU"),
                   Column(
-                    children: ServidoresRU.map(
-                        (servidor) => TeamsDescription(servidor)).toList(),
+                    children:
+                        ServidoresRU.map((servidor) => StdDescription(servidor))
+                            .toList(),
                   ),
                 ],
               ),

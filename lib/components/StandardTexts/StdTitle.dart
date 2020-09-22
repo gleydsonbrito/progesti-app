@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TeamsTitle extends StatelessWidget {
+class StdTitle extends StatelessWidget {
   String title;
 
-  TeamsTitle(this.title);
+  StdTitle(this.title);
 
   @override
   Widget build(BuildContext context) {
