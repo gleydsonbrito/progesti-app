@@ -103,6 +103,23 @@ class DrawerProgesti extends StatelessWidget {
               onTap: () {
                 Navigator.pushNamed(context, "/Secretariats");
               },
+            ),
+            ListTile(
+              trailing: Icon(
+                Icons.filter,
+                color: Colors.blueAccent,
+                size: 30,
+              ),
+              title: Text(
+                "Publicações",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, "/Publications");
+              },
             )
           ],
         ),

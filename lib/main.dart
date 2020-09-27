@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/Editais.dart';
 import 'package:progesti_app/pages/ProReitoria.dart';
+import 'package:progesti_app/pages/Publications.dart';
 import 'package:progesti_app/pages/Secretaiats.dart';
 import 'package:progesti_app/pages/Story.dart';
 import 'package:progesti_app/pages/Team.dart';
@@ -28,6 +29,7 @@ void main() {
       '/Story': (context) => Story(),
       '/Secretariats': (context) => Secretariats(),
       '/ProReitoria': (context) => ProReitoria(),
+      '/Publications': (context) => Publications(),
     },
   ));
 }
