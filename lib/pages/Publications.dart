@@ -20,7 +20,7 @@ class Publications extends StatelessWidget {
   }
 }
 
-var publications = [
+List<PublicationsItem> publications = [
   PublicationsItem(
     'Retenção e Evasão na Assistência Estudantil',
     'Este documento representa uma das etapas do processo de avaliação que a Pró-Reitoria de Gestão Estudantil e Inclusão (Progesti) vem realizando sobre as políticas afirmativas de assistência estudantil, no âmbito da Universidade Federal Rural de Pernambuco (UFRPE), na Sede e Unidades Acadêmicas de Garanhuns (UAG), Serra Talhada (UAST) e Cabo de Santo Agostinho (UACSA).',
