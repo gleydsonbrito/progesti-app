@@ -32,7 +32,7 @@ class _BottomTestState extends State<BottomTabBar> {
     setState(() {
       _selectedIndex = index;
       if (index == 0) {
-        Navigator.pushNamed(context, "/Resolucoes");
+        Navigator.pushNamed(context, "/Programs");
       } else if (index == 1) {
         Navigator.pushNamed(context, "/Formularios");
       } else if (index == 2) {
@@ -46,8 +46,8 @@ class _BottomTestState extends State<BottomTabBar> {
     return BottomNavigationBar(
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.file_upload),
-          title: Text('Resoluções'),
+          icon: Icon(Icons.apps),
+          title: Text('Programas'),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.folder),
@@ -59,7 +59,7 @@ class _BottomTestState extends State<BottomTabBar> {
         ),
       ],
       currentIndex: _selectedIndex,
-      selectedItemColor: mainColor,
+      selectedItemColor: Colors.blueAccent,
       onTap: _onItemTapped,
     );
   }
