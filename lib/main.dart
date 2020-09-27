@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/Editais.dart';
+import 'package:progesti_app/pages/ProReitoria.dart';
+import 'package:progesti_app/pages/Secretaiats.dart';
 import 'package:progesti_app/pages/Story.dart';
 import 'package:progesti_app/pages/Team.dart';
 import 'package:progesti_app/pages/Forms.dart';
@@ -24,6 +26,8 @@ void main() {
       '/Editais': (context) => Editais(),
       '/Formularios': (context) => Formularios(),
       '/Story': (context) => Story(),
+      '/Secretariats': (context) => Secretariats(),
+      '/ProReitoria': (context) => ProReitoria(),
     },
   ));
 }

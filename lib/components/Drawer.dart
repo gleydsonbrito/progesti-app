@@ -21,6 +21,40 @@ class DrawerProgesti extends StatelessWidget {
             ),
             ListTile(
               trailing: Icon(
+                Icons.account_balance,
+                color: Colors.blueAccent,
+                size: 30,
+              ),
+              title: Text(
+                "Pró Reitoria",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/ProReitoria');
+              },
+            ),
+            ListTile(
+              trailing: Icon(
+                Icons.all_out,
+                color: Colors.blueAccent,
+                size: 30,
+              ),
+              title: Text(
+                "Missão",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black.withOpacity(0.80),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, "/Mission");
+              },
+            ),
+            ListTile(
+              trailing: Icon(
                 Icons.speaker_notes,
                 color: Colors.blueAccent,
                 size: 30,
@@ -55,21 +89,21 @@ class DrawerProgesti extends StatelessWidget {
             ),
             ListTile(
               trailing: Icon(
-                Icons.account_balance,
+                Icons.account_box,
                 color: Colors.blueAccent,
                 size: 30,
               ),
               title: Text(
-                "Missão",
+                "Secretarias",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.black.withOpacity(0.80),
                 ),
               ),
               onTap: () {
-                Navigator.pushNamed(context, "/Mission");
+                Navigator.pushNamed(context, "/Secretariats");
               },
-            ),
+            )
           ],
         ),
       ),

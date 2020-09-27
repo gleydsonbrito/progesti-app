@@ -22,7 +22,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutterß
+    sdk: flutter
   path_provider:
    
 
