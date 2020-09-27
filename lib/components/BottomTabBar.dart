@@ -34,9 +34,9 @@ class _BottomTestState extends State<BottomTabBar> {
       if (index == 0) {
         Navigator.pushNamed(context, "/Programs");
       } else if (index == 1) {
-        Navigator.pushNamed(context, "/Formularios");
+        Navigator.pushNamed(context, "/MapScreen");
       } else if (index == 2) {
-        Navigator.pushNamed(context, "/Editais");
+        Navigator.pushNamed(context, "/Ru");
       }
     });
   }
@@ -50,12 +50,12 @@ class _BottomTestState extends State<BottomTabBar> {
           title: Text('Programas'),
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.folder),
-          title: Text('Formulários'),
+          icon: Icon(Icons.location_on),
+          title: Text('Locais'),
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.archive),
-          title: Text('Editais'),
+          icon: Icon(Icons.restaurant),
+          title: Text('R.U'),
         ),
       ],
       currentIndex: _selectedIndex,

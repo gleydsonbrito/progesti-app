@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/style.dart';
 
-class Formularios extends StatelessWidget {
+class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Formulários"),
-        backgroundColor: mainColor,
+        title: Text("Locais"),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Text(
-          "Fomrulários Screem",
+          "Maps Screem",
           style: TextStyle(
             fontSize: 30,
           ),

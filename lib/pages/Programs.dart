@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:progesti_app/pages/programs/Pad.dart';
 import 'package:progesti_app/pages/programs/Pag.dart';
 import 'package:progesti_app/pages/programs/Pai.dart';
@@ -13,7 +12,7 @@ class Programs extends StatelessWidget {
       length: 5,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Programas"),
+          title: Text("Principais Programas"),
           backgroundColor: Colors.blueAccent,
           bottom: TabBar(
             tabs: [
