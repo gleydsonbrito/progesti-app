@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/components/StandardTexts/StdTitle.dart';
+import 'package:progesti_app/style.dart';
 
 class DefaultWeek extends StatelessWidget {
   String seg;
@@ -15,8 +17,12 @@ class DefaultWeek extends StatelessWidget {
       length: 5,
       child: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 50.0,
+          backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           bottom: TabBar(
+            indicatorColor: mainColor,
+            labelColor: mainColor,
             tabs: [
               Tab(
                 text: 'SEG',
