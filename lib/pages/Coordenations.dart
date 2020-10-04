@@ -6,12 +6,12 @@ class Coordenations extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Coordenação Específica"),
-        backgroundColor: mainColor,
+        title: Text("Coordenação"),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Text(
-          "Return Especific Coordantion",
+          "Retorna a página da coordenação específica",
           style: TextStyle(
             fontSize: 30,
           ),

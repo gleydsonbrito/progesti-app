@@ -49,7 +49,6 @@ class Programs extends StatelessWidget {
           ],
         ),
       ),
-      // bottomNavigationBar: BottomTabBarProgesti(),
     );
   }
 }
