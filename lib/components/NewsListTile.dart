@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:progesti_app/components/NewsListItemCard.dart';
 import 'package:progesti_app/controllers/NewController.dart';
 import 'package:progesti_app/models/NewModel.dart';
@@ -15,10 +16,6 @@ class NewsListTile extends StatelessWidget {
       lReturn.add(new NewsListItemCard(ln.title, ln.content));
     }
     return lReturn;
-  }
-
-  void onRefresh() {
-    getData();
   }
 
   @override

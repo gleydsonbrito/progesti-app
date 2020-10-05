@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/RU.dart';
 import 'package:progesti_app/pages/MapScreen.dart';
@@ -13,7 +14,7 @@ import 'package:progesti_app/pages/NewsDetailScreen.dart';
 import 'pages/Home.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
     title: "Progesti App",
     home: Home(),
