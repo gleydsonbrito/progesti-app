@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/components/TabDinner.dart';
-import 'package:progesti_app/components/TabLaunch.dart';
 import 'package:progesti_app/controllers/MealsController.dart';
 import 'package:progesti_app/models/Meals.dart';
 
@@ -49,13 +48,15 @@ class Dinner extends StatelessWidget {
               future: fetchMeals(),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
-                  return TabBarView(children: [
-                    TabDinner(snapshot.data.dinners[0]),
-                    TabDinner(snapshot.data.dinners[1]),
-                    TabDinner(snapshot.data.dinners[2]),
-                    TabDinner(snapshot.data.dinners[3]),
-                    TabDinner(snapshot.data.dinners[4])
-                  ]);
+                  return TabBarView(
+                    children: <Widget>[
+                      TabDinner(snapshot.data.dinners[0]),
+                      TabDinner(snapshot.data.dinners[1]),
+                      TabDinner(snapshot.data.dinners[2]),
+                      TabDinner(snapshot.data.dinners[3]),
+                      TabDinner(snapshot.data.dinners[4])
+                    ],
+                  );
                 } else {
                   return Center(
                     child: CircularProgressIndicator(),

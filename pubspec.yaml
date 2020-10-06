@@ -50,6 +50,17 @@ flutter:
      - assets/not.png
      - assets/wave.png
      - assets/logo.png
+     - assets/suco.jpeg
+     - assets/fgrill.jpeg
+     - assets/grelhado.jpg
+     - assets/guarnicao.jpg
+     - assets/p1.jpg
+     - assets/p2.jpg
+     - assets/saladacozida.jpg
+     - assets/saladacrua.jpg
+     - assets/sobremesas.jpeg
+     - assets/sopa.jpg
+     - assets/veg.jpeg
      - assets/files/story.txt
 
   # An image asset can refer to one or more resolution-specific "variants", see
