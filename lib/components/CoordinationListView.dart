@@ -1,5 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:progesti_app/pages/Coordenations.dart';
 
 import 'CoordinationItem.dart';
 
@@ -9,11 +8,11 @@ class CoordinationListView extends StatelessWidget {
     var icons = new List<Widget>();
 
     icons = [
-      CoordinationItem("COAP"),
-      CoordinationItem("CAAP"),
-      CoordinationItem("CGR"),
-      CoordinationItem("CGARU"),
-      CoordinationItem("COPSELC"),
+      CoordinationItem("COAP", '/coap'),
+      CoordinationItem("CAAP", '/caap'),
+      CoordinationItem("CGR", '/cgr'),
+      CoordinationItem("CGARU", '/cgaru'),
+      CoordinationItem("COPSELC", '/copselc'),
     ];
 
     return GestureDetector(

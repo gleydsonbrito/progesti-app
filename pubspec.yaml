@@ -62,6 +62,18 @@ flutter:
      - assets/sopa.jpg
      - assets/veg.jpeg
      - assets/files/story.txt
+     - assets/wiki/programas.png
+     - assets/wiki/coordenacao.png
+     - assets/wiki/detalhes.png
+     - assets/wiki/home.png
+     - assets/wiki/menu.png
+     - assets/wiki/programas.png
+     - assets/wiki/ru-almoco.png
+     - assets/wiki/ru-jantar.png
+     - assets/wiki/mapa.png
+     - assets/wiki/cgr.png
+     - assets/wiki/secretaria.png
+     - assets/wiki/equipe.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

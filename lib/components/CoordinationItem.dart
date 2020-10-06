@@ -3,14 +3,15 @@ import 'package:progesti_app/style.dart';
 
 class CoordinationItem extends StatelessWidget {
   String coordinationName;
+  String coordenationRoute;
 
-  CoordinationItem(this.coordinationName);
+  CoordinationItem(this.coordinationName, this.coordenationRoute);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, '/Coordenation');
+        Navigator.pushNamed(context, coordenationRoute);
       },
       child: Stack(
         alignment: Alignment.bottomCenter,

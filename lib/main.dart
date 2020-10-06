@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:progesti_app/components/NewsListItemCard.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/RU.dart';
 import 'package:progesti_app/pages/MapScreen.dart';
@@ -12,6 +11,11 @@ import 'package:progesti_app/pages/Story.dart';
 import 'package:progesti_app/pages/Team.dart';
 import 'package:progesti_app/pages/MIssion.dart';
 import 'package:progesti_app/pages/NewsDetailScreen.dart';
+import 'package:progesti_app/pages/coordenations/caap.dart';
+import 'package:progesti_app/pages/coordenations/cgaru.dart';
+import 'package:progesti_app/pages/coordenations/cgr.dart';
+import 'package:progesti_app/pages/coordenations/coap.dart';
+import 'package:progesti_app/pages/coordenations/copselc.dart';
 import 'pages/Home.dart';
 
 void main() {
@@ -32,6 +36,11 @@ void main() {
       '/Secretariats': (context) => Secretariats(),
       '/ProReitoria': (context) => ProReitoria(),
       '/Publications': (context) => Publications(),
+      '/coap': (context) => Coap(),
+      '/caap': (context) => Caap(),
+      '/cgr': (context) => Cgr(),
+      '/cgaru': (context) => Cgaru(),
+      '/copselc': (context) => Copselc(),
       NewsDetailScreen.routeName: (context) => NewsDetailScreen(),
     },
   ));
