@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:progesti_app/pages/NewsDetailScreen.dart';
 import 'package:progesti_app/style.dart';
 
 class NewsListItemCard extends StatelessWidget {
@@ -11,7 +12,11 @@ class NewsListItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, '/detail');
+        Navigator.pushNamed(
+          context,
+          NewsDetailScreen.routeName,
+          arguments: NewsListItemCard(title, subject),
+        );
       },
       child: Container(
         height: 70,

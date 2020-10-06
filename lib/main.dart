@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:progesti_app/components/NewsListItemCard.dart';
 import 'package:progesti_app/pages/Coordenations.dart';
 import 'package:progesti_app/pages/RU.dart';
 import 'package:progesti_app/pages/MapScreen.dart';
@@ -31,6 +32,7 @@ void main() {
       '/Secretariats': (context) => Secretariats(),
       '/ProReitoria': (context) => ProReitoria(),
       '/Publications': (context) => Publications(),
+      NewsDetailScreen.routeName: (context) => NewsDetailScreen(),
     },
   ));
 }
