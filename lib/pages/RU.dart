@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:progesti_app/pages/CardapioRU/dinner.dart';
-import 'package:progesti_app/pages/CardapioRU/launch.dart';
+import 'package:progesti_app/pages/cardapioRU/lunch.dart';
 
 class Ru extends StatelessWidget {
   @override
@@ -28,7 +28,7 @@ class Ru extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
-            Launch(),
+            Lunch(),
             Dinner(),
           ],
         ),

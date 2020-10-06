@@ -1,4 +1,4 @@
-class Launch {
+class Lunch {
   String suc;
   String p1;
   String p2;
@@ -10,7 +10,7 @@ class Launch {
   String sco;
   String sal;
 
-  Launch(
+  Lunch(
     this.suc,
     this.p1,
     this.p2,

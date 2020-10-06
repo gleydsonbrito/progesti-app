@@ -1,12 +1,12 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:progesti_app/components/TabDinner.dart';
 import 'package:progesti_app/components/TabLaunch.dart';
 import 'package:progesti_app/controllers/MealsController.dart';
 import 'package:progesti_app/models/Meals.dart';
 
 import '../../style.dart';
 
-class Dinner extends StatelessWidget {
+class Lunch extends StatelessWidget {
   Future<Meals> fetchMeals() async {
     MealsController mc = MealsController();
     Meals m = await mc.getMeals();
@@ -50,11 +50,11 @@ class Dinner extends StatelessWidget {
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
                   return TabBarView(children: [
-                    TabDinner(snapshot.data.dinners[0]),
-                    TabDinner(snapshot.data.dinners[1]),
-                    TabDinner(snapshot.data.dinners[2]),
-                    TabDinner(snapshot.data.dinners[3]),
-                    TabDinner(snapshot.data.dinners[4])
+                    TabLunch(snapshot.data.lunches[0]),
+                    TabLunch(snapshot.data.lunches[1]),
+                    TabLunch(snapshot.data.lunches[2]),
+                    TabLunch(snapshot.data.lunches[3]),
+                    TabLunch(snapshot.data.lunches[4])
                   ]);
                 } else {
                   return Center(

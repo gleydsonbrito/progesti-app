@@ -1,10 +1,10 @@
 import 'package:progesti_app/models/Dinner.dart';
-import 'package:progesti_app/models/Launch.dart';
+import 'package:progesti_app/models/Lunch.dart';
 
 class Meals {
   String idOfWeek;
-  List<Launch> launches;
+  List<Lunch> lunches;
   List<Dinner> dinners;
 
-  Meals(this.idOfWeek, this.launches, this.dinners);
+  Meals(this.idOfWeek, this.lunches, this.dinners);
 }

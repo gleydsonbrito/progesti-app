@@ -1,6 +1,6 @@
 import 'package:progesti_app/models/Dinner.dart';
 import 'package:progesti_app/models/Meals.dart';
-import 'package:progesti_app/models/Launch.dart';
+import 'package:progesti_app/models/Lunch.dart';
 import 'package:progesti_app/services/meals.service.dart';
 
 class MealsController {
@@ -8,11 +8,11 @@ class MealsController {
     var getMeals = MealsService();
     var mealsResponse = await getMeals.fetchMeals();
 
-    List<Launch> laucherList = List<Launch>();
+    List<Lunch> laucherList = List<Lunch>();
     List<Dinner> dinnerList = List<Dinner>();
 
-    for (var m in mealsResponse.data) {
-      laucherList.add(Launch(
+    for (var m in mealsResponse['data']) {
+      laucherList.add(Lunch(
         m['almoco']['suc'].toString(),
         m['almoco']['p1'].toString(),
         m['almoco']['p2'].toString(),
@@ -26,16 +26,16 @@ class MealsController {
       ));
 
       dinnerList.add(Dinner(
-        m['janta']['suc'].toString(),
-        m['janta']['p1'].toString(),
-        m['janta']['p2'].toString(),
-        m['janta']['gua'].toString(),
-        m['janta']['sob'].toString(),
-        m['janta']['sopa'].toString(),
-        m['janta']['veg'].toString(),
-        m['janta']['gre'].toString(),
-        m['janta']['fag'].toString(),
-        m['janta']['sal'].toString(),
+        m['jantar']['suc'].toString(),
+        m['jantar']['p1'].toString(),
+        m['jantar']['p2'].toString(),
+        m['jantar']['gua'].toString(),
+        m['jantar']['sob'].toString(),
+        m['jantar']['sopa'].toString(),
+        m['jantar']['veg'].toString(),
+        m['jantar']['gre'].toString(),
+        m['jantar']['fag'].toString(),
+        m['jantar']['sal'].toString(),
       ));
     }
     Meals mealsOfWeek = Meals(mealsResponse['_id'], laucherList, dinnerList);
