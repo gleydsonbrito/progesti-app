@@ -11,7 +11,7 @@ class MapScreen extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Maps Screem",
+          "Em construção",
           style: TextStyle(
             fontSize: 30,
           ),
