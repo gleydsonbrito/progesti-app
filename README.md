@@ -47,3 +47,7 @@ Na opção do restaurante Universitário toda comunidade da UFRPE poderá ter ac
 
 ![ru-almoco](https://user-images.githubusercontent.com/40172654/95687960-169d0800-0bdd-11eb-83dc-a67d31e93a57.png)
 ![ru-jantar](https://user-images.githubusercontent.com/40172654/95687961-169d0800-0bdd-11eb-8005-c158f40116e6.png)
+
+## Esquema de navegação
+![Diagrama Progesti App](https://user-images.githubusercontent.com/40172654/95692919-a6ec4480-0bff-11eb-9de3-c7d462523865.png)
+
