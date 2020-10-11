@@ -8,8 +8,8 @@ class IconHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: 270,
-      top: 50,
+      left: MediaQuery.of(context).size.width * 0.70,
+      top: MediaQuery.of(context).size.height * 0.06,
       child: Container(
         width: 70,
         height: 70,
