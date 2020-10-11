@@ -13,7 +13,7 @@ Na tela principal do app é possível visualizar as últimas notícias publicada
 
 ## Menu superior esquerdo
 
-No menu superior esquerdo é possível acessar diuversas informações sobre a Pró Reitoria, como conhecer nossa missão, nossa história, a equipe que compõe a Progesti, contatos de nossas secretarias e nossas publicações.
+No menu superior esquerdo é possível acessar diversas informações sobre a Pró Reitoria, como conhecer nossa missão, nossa história, a equipe que compõe a Progesti, contatos de nossas secretarias e nossas publicações.
 
 ![menu](https://user-images.githubusercontent.com/40172654/95687956-156bdb00-0bdd-11eb-878e-5f8ec92bf840.png)
 ![equipe](https://user-images.githubusercontent.com/40172654/95687952-14d34480-0bdd-11eb-8a09-78e98daf72fb.png)
