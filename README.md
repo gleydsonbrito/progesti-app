@@ -29,11 +29,12 @@ Também na página inicial é possivel ter acesso as informações sobre cada co
 
 ## Menu inferior
 
-O menu inferir é composto por três funcionalidades. Programas, Locais e Restaurante Universtitário (RU).
+O menu inferior é composto por três funcionalidades. Programas, Locais e Restaurante Universtitário (RU).
 
 ## Programas
 
 Na opção programs todos terão acesso às informações dos proncipais programs da Pro Reitoria de Gestão Estudantil. Aqui os estudantes interessados poderão entender mais como funciona cada programa e seus aspectos principais.
+
 ![programas](https://user-images.githubusercontent.com/40172654/95687958-16047180-0bdd-11eb-9ab9-4acc8ec31528.png)
 
 ## Locais
