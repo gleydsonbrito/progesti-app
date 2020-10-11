@@ -6,7 +6,7 @@ O app Progesti UFRPE vem para trazer aos discentes e a toda comunidade da Univer
 
 ## Tela inicial
 
-Na tela principal do app é possível visualizar as últimas notícias publicadas na página da progesti. Clicando na notícia deseja uma nova tela abrirá contendo a notícia de forma detalhada.
+Na tela principal do app é possível visualizar as últimas notícias publicadas na página da progesti. Clicando na notícia desejada, uma nova tela abrirá contendo a notícia de forma detalhada.
 
 ![home](https://user-images.githubusercontent.com/40172654/95687953-14d34480-0bdd-11eb-8369-d07f5e9ee57e.png)
 ![detalhes](https://user-images.githubusercontent.com/40172654/95687950-143aae00-0bdd-11eb-83a6-4c700cc03526.png)
