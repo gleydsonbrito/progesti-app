@@ -5,6 +5,8 @@ import 'Place.dart';
 List<Place> getPlaces() {
   List<Place> items = new List<Place>();
   items.add(Place('Progesti', LatLng(-8.013843179127202, -34.94793590158224)));
+  items.add(
+      Place('Anexo Progesti', LatLng(-8.01731457680429, -34.95053965598345)));
   items.add(Place('Reitoria', LatLng(-8.01396469182611, -34.950335808098316)));
   items.add(Place('Restaurante Universitário',
       LatLng(-8.014071928412767, -34.95105899870396)));

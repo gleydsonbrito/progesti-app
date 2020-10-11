@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:progesti_app/models/Place.dart';
 import 'package:progesti_app/models/PlaceList.dart';
 
 class MapScreen extends StatefulWidget {
@@ -13,6 +12,7 @@ class _MapScreenState extends State<MapScreen> {
   var _items = getPlaces();
   var _names = [
     'Progesti',
+    'Anexo Progesti',
     'Reitoria',
     'Restaurante Universitário',
     'Biblioteca Central',
@@ -63,9 +63,6 @@ class _MapScreenState extends State<MapScreen> {
         children: [
           GoogleMap(
             onMapCreated: _onMapCreate,
-            onCameraMove: (data) {
-              print(data);
-            },
             onTap: (data) {
               print(data);
             },
