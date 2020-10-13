@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:progesti_app/style.dart';
 
 class BottomTabBar extends StatefulWidget {
   BottomTabBar({Key key}) : super(key: key);

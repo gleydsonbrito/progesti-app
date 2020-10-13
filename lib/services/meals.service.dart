@@ -1,7 +1,5 @@
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
-import 'package:progesti_app/models/Meals.dart';
-import 'package:progesti_app/models/NewModel.dart';
 
 class MealsService {
   final String url = 'https://backendru.herokuapp.com/thisweek?week=11';
