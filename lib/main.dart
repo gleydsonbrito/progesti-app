@@ -15,6 +15,8 @@ import 'package:progesti_app/pages/coordenations/caap.dart';
 import 'package:progesti_app/pages/coordenations/cgaru.dart';
 import 'package:progesti_app/pages/coordenations/cgr.dart';
 import 'package:progesti_app/pages/coordenations/coap.dart';
+import 'package:progesti_app/pages/coordenations/cogest-uacsa.dart';
+import 'package:progesti_app/pages/coordenations/cogesti-uast.dart';
 import 'package:progesti_app/pages/coordenations/copselc.dart';
 import 'package:progesti_app/pages/coordenations/gabinete.dart';
 import 'pages/Home.dart';
@@ -43,6 +45,8 @@ void main() {
       '/cgaru': (context) => Cgaru(),
       '/copselc': (context) => Copselc(),
       '/gabinete': (context) => Gabinete(),
+      '/cogesti-uast': (context) => CogestiUAST(),
+      '/cogesti-uacsa': (context) => CogestiUACSA(),
       NewsDetailScreen.routeName: (context) => NewsDetailScreen(),
     },
   ));

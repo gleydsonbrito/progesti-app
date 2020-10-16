@@ -14,6 +14,10 @@ class CoordinationListView extends StatelessWidget {
       CoordinationItem("CGR", '/cgr'),
       CoordinationItem("CGARU", '/cgaru'),
       CoordinationItem("COPSELC", '/copselc'),
+      CoordinationItem("CGARU", '/cgaru'),
+      CoordinationItem("COPSELC", '/copselc'),
+      CoordinationItem("COGESTI\n\nUAST", '/cogestiuast'),
+      CoordinationItem("COGESTI\n\nUACSA", '/cogestiuacsa'),
     ];
 
     return GestureDetector(
