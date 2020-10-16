@@ -8,6 +8,7 @@ class CoordinationListView extends StatelessWidget {
     var icons = new List<Widget>();
 
     icons = [
+      CoordinationItem("Gabinete", '/gabinete'),
       CoordinationItem("COAP", '/coap'),
       CoordinationItem("CAAP", '/caap'),
       CoordinationItem("CGR", '/cgr'),

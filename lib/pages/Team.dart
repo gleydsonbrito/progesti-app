@@ -4,7 +4,7 @@ import 'package:progesti_app/components/StandardTexts/StdTitle.dart';
 
 class Team extends StatelessWidget {
   List<String> assistentesSociais = [
-    "Fábia Castro de A. Maranhão (SEDE)",
+    "Fábia Castro de Albuquerque Maranhão (SEDE)",
     "Maria Aparecida Siqueira Ferraz Cornélio (SEDE)",
     "Simone Muniz da Silva (SEDE)",
     "eidiane Torres Sales (UABJ)"
